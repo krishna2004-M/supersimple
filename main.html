@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Krishna - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1e90ff;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4682b4;
+        }
+        nav a {
+            color: #fff;
+            padding: 1em;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #87ceeb;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+            color: #1e90ff;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1em;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin: 0.5em 0;
+        }
+        footer {
+            background-color: #1e90ff;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .dynamic-button {
+            display: inline-block;
+            padding: 0.5em 1em;
+            margin-top: 1em;
+            background-color: #1e90ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .dynamic-button:hover {
+            background-color: #4682b4;
+        }
+    </style>
+    <script>
+        function showAlert() {
+            alert("Hello, welcome to my personal webpage!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>M Krishna</h1>
+        <p>Integrated B.Tech in Computer Science and Engineering</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p>Hello! I am Krishna, currently pursuing an Integrated B.Tech in Computer Science and Engineering at Lovely Professional University, Phagwara. I have a diploma from Tamilnadu Government Polytechnic College, Madurai, and completed my schooling at Kendriya Vidyalaya No.2, Madurai.</p>
+            <img src="profile.jpg" alt="Profile Image" class="profile-image">
+            <button class="dynamic-button" onclick="showAlert()">Click Me!</button>
+        </section>
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <h3>Metro Train Ticket Booking Website</h3>
+            <p>Duration: Jan 2023 - May 2023</p>
+            <p>This project was a group effort of six members, designed using HTML, CSS, and JavaScript. The website allows users to sign in, sign out, book tickets, search for trains, and receive QR code tickets.</p>
+        </section>
+        <section id="skills">
+            <h2 class="section-title">Technical Skills</h2>
+            <ul>
+                <li>Excel</li>
+                <li>Basic Statistics</li>
+                <li>DBMS</li>
+                <li>Python</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>C/C++</li>
+            </ul>
+        </section>
+        <section id="achievements">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <ul>
+                <li>Volunteered in a food donation camp supporting specially-abled people.</li>
+                <li>1st Prize in Kho-Kho Regional Level, 2016</li>
+                <li>Participated in Kho-Kho National Level, 2016</li>
+                <li>Rajyapuraskar Award in The Bharat Scouts & Guides, 2018</li>
+                <li>Internship certificate for “Next Generation Data Networking”</li>
+                <li>Course certificate for “Introduction to Artificial Intelligence (AI)” by IBM</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <ul class="contact-info">
+                <li>Email: <a href="mailto:Krishbabu2004@gmail.com">Krishbabu2004@gmail.com</a></li>
+                <li>Phone: +9 9788679188</li>
+                <li>Address: Plot No.13/A, Kasithotam 1st Cross Street, Thiruparakundram, Madurai, 625005, India</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 M Krishna. All rights reserved.
+    </footer>
+</body>
+</html>
